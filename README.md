@@ -14,3 +14,6 @@ Because this model has multiple neural layers, I first calculate the outputs pro
 Then these outputs are used as inputs for neuron o<sub>1</sub>, denoted as o:<br/>
 <p align="center"> o(x) = f(y<sub>1</sub>w<sub>5</sub> + y<sub>2</sub>w<sub>6</sub>)   (4) </p><br/>
 
+## Supervised Training
+When untrained, I first assign random weights w<sub>i</sub> to each input. Through providing sample training sets and undergoing supervised training, the weights of the inputs are adjusted accordingly, given the desired output prediction. This is essnetially an optimisation problem, where the goal is to minimise the training loss which is also the empirical risk:<br/>
+<p align="center"> L(x) = &frac1n;   (3) </p><br/>
