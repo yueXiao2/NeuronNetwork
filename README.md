@@ -11,6 +11,6 @@ where w<sub>i</sub> are the weighting factors of each input to a specific neuron
 Because this model has multiple neural layers, I first calculate the outputs produced by h<sub>1</sub> and h<sub>2</sub> using Equation (1), denoted y<sub>1</sub> and y<sub>2</sub>:<br/>
 <p align="center"> y<sub>1</sub>(x) = f(x<sub>1</sub>w<sub>1</sub> + x<sub>2</sub>w<sub>2</sub>)   (2) </p><br/>
 <p align="center"> y<sub>2</sub>(x) = f(x<sub>1</sub>w<sub>3</sub> + x<sub>2</sub>w<sub>4</sub>)   (3) </p><br/>
-Then these outputs are used as inputs for neuron o<sub>1</sub>:<br/>
-<p align="center"> o<sub>1</sub>(x) = f(y<sub>1</sub>w<sub>5</sub> + y<sub>2</sub>w<sub>6</sub>)   (4) </p><br/>
+Then these outputs are used as inputs for neuron o<sub>1</sub>, denoted as o:<br/>
+<p align="center"> o(x) = f(y<sub>1</sub>w<sub>5</sub> + y<sub>2</sub>w<sub>6</sub>)   (4) </p><br/>
 
