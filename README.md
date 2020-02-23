@@ -18,4 +18,4 @@ Then these outputs are used as inputs for neuron o<sub>1</sub>, denoted as o:<br
 When untrained, I first assign random weights w<sub>i</sub> to each input. Through providing sample training sets and undergoing supervised training, the weights of the inputs are adjusted accordingly, given the desired output prediction. This is essnetially an optimisation problem, where the goal is to minimise the training loss which is also the empirical risk:<br/>
 <p align="center"> L(x) = <sup>1</sup>&frasl;n <span>&Sigma;</span><sub>i</sub> (o<sub>true</sub> - o<sub>predict</sub>)<sup>2</sup> </p><br/>
 where i = 1,2,...n. An optimisation alogorithm Stochastic Gradient Descent (SGD) is used to adjust the weights and minimise loss:<br/>
-<p align="center"> w<sub>i</sub> ← w<sub>i</sub> - η∂<sup>∂L</sup>&frasl;∂w<sub>i</sub> <span></p><br/>
+<p align="center"> w<sub>i</sub> ← w<sub>i</sub> - η<sup>∂L</sup>&frasl;∂w<sub>i</sub> <span></p><br/>
